@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/chauchinyiu/Development/vapor/weatherApp/.build/checkouts/swift-nio-ssl.git--4831191226535708401/Sources/CNIOOpenSSL/include"
+    export *
+}
