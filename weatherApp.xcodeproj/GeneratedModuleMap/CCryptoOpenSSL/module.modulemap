@@ -1,4 +1,0 @@
-module CCryptoOpenSSL {
-    umbrella "/Users/chauchinyiu/Development/vapor/weatherApp/.build/checkouts/crypto.git--6895769879388265646/Sources/CCryptoOpenSSL/include"
-    export *
-}
