@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		E5FB337E2208664100FCC257 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FB337D2208664100FCC257 /* WeatherController.swift */; };
-		E5FB33802208668600FCC257 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FB337F2208668600FCC257 /* Weather.swift */; };
+		E5FB33802208668600FCC257 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FB337F2208668600FCC257 /* WeatherResponse.swift */; };
 		OBJ_1062 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AppTests.swift */; };
 		OBJ_1064 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "weatherApp::App::Product" /* App.framework */; };
 		OBJ_1065 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Vapor::Vapor::Product" /* Vapor.framework */; };
@@ -5102,7 +5102,7 @@
 		"Crypto::Random::Product" /* Random.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DatabaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FB337D2208664100FCC257 /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
-		E5FB337F2208668600FCC257 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E5FB337F2208668600FCC257 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		"Fluent::Fluent::Product" /* Fluent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Fluent::FluentSQL::Product" /* FluentSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6710,7 +6710,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* Todo.swift */,
-				E5FB337F2208668600FCC257 /* Weather.swift */,
+				E5FB337F2208668600FCC257 /* WeatherResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -7725,7 +7725,7 @@
 			path = Log;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -7735,7 +7735,6 @@
 				OBJ_23 /* Dependencies */,
 				OBJ_869 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_502 /* Service */ = {
@@ -10588,7 +10587,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_869 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -11784,7 +11783,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				E5FB33802208668600FCC257 /* Weather.swift in Sources */,
+				E5FB33802208668600FCC257 /* WeatherResponse.swift in Sources */,
 				OBJ_921 /* TodoController.swift in Sources */,
 				OBJ_922 /* Todo.swift in Sources */,
 				OBJ_923 /* app.swift in Sources */,
